@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .pink-box {
+            background-color: #ff69b4;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            justify-items: center;
+        }
+
+        .pink-box img {
+            max-width: 500px; 
+            width: 100%;
+            height: auto;
+        }
+
+        .image-caption {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .large-text {
+            font-size: 75px;
+        }
+        .medium-text {
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="content">
+            <div class="menu container">
+                <a href="index.html" class="logo">Inicio.</a>
+                <input type="checkbox" id="menu" />
+                <label for="menu">
+                    <img src="https://th.bing.com/th/id/OIP.4Mwhk6b9-uudOXjgLrSBMQHaHa?rs=1&pid=ImgDetMain" class="menu-icono" alt="Menú">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="hoja uno.html">Parte 2.</a></li>
+                        <li><a href="hoja dos.html">Parte 3.</a></li>
+                        <li><a href="hoja tres.html">Parte 4.</a></li>
+                        <li><a href="hoja cuatro.html">Parte 5.</a></li>
+                        <li><a href="hoja 5.html">Parte 6.</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <p class="large-text">Visitas a la Escuela: SAN PATRICIO.</p>
+    <p class="medium-text">Grupo No. 5 de 5to bachillerato en computación con orientación comercial</p>
+
+    <div class="pink-box">
+        <div>
+            <img src="imagenes/imagen01.jpg" alt="Descripción de la Imagen 1">
+            <p class="image-caption">Visita Uno</p>
+        </div>
+        <div>
+            <img src="imagenes/imagen02.jpg" alt="Descripción de la Imagen 2">
+            <p class="image-caption">Visita Dos</p>
+        </div>
+        <div>
+            <img src="imagenes/imagen03.jpg" alt="Descripción de la Imagen 3">
+            <p class="image-caption">Visita Tres</p>
+        </div>
+        <div>
+            <img src="imagenes/imagen04.jpg" alt="Descripción de la Imagen 4">
+            <p class="image-caption">Visita Cuatro</p>
+        </div>
+        <div>
+            <img src="imagenes/imagen05.jpg" alt="Descripción de la Imagen 5">
+            <p class="image-caption">Visita Cinco</p>
+        </div>
+        <div>
+            <img src="imagenes/imagen06.jpg" alt="Descripción de la Imagen 6">
+            <p class="image-caption">Visita Cinco</p>
+        </div>
+        <div>
+            <img src="imagenes/imagen07.jpg" alt="Descripción de la Imagen 7">
+            <p class="image-caption">Despedida</p>
+        </div>
+        <div>
+            <img src="imagenes/imagen1.jpg" alt="Descripción de la Imagen 8">
+            <p class="image-caption">Despedida</p>
+        </div>
+    </div>
+
+</body>
+</html>

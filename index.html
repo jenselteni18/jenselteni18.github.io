@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .pink-box {
+            background-color: #ff69b4;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            justify-items: center;
+        }
+
+        .pink-box img {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+        }
+
+        .large-text {
+            font-size: 75px;
+        }
+        .medium-text {
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="content">
+            <div class="menu container">
+                <a href="index.html" class="logo">Inicio.</a>
+                <input type="checkbox" id="menu" />
+                <label for="menu">
+                    <img src="https://th.bing.com/th/id/OIP.4Mwhk6b9-uudOXjgLrSBMQHaHa?rs=1&pid=ImgDetMain" class="menu-icono" alt="Menú">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="hoja uno.html">parte 2.</a></li>
+                        <li><a href="hoja dos.html">parte 3.</a></li>
+                        <li><a href="hoja tres.html">parte 4.</a></li>
+                        <li><a href="hoja cuatro.html">parte 5.</a></li>
+                        <li><a href="hoja 5.html">parte 6.</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <h1>Inicio:</h1>
+    <p class="large-text">Página de presentación</p>
+    <p class="medium-text">Grupo No. 5 de 5to bachillerato en computación con orientación comercial</p>
+
+    <div class="pink-box">
+        <img src="imagenes/imagen1.jpg" alt="Descripción de la Imagen 1">
+        <img src="imagenes/imagen2.jpg" alt="Descripción de la Imagen 2">
+        <img src="imagenes/imagen3.jpg" alt="Descripción de la Imagen 3">
+        <img src="imagenes/imagen4.jpg" alt="Descripción de la Imagen 4">
+    </div>
+
+</body>
+</html>
